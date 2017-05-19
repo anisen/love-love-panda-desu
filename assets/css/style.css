@@ -6,3 +6,37 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway';
+}
+#encabezado{
+	font-family: 'Raleway', sans-serif;
+	background-color: #F78E69;
+	text-align: right;
+	color: white;
+	font-size: 40px;
+	padding-right: 20px;
+}
+.imagenes-principales{
+
+	background-size: cover;
+	background-position: center;
+}
+.color{
+	background-color: #ABE188;
+	width: auto;
+	height: 100px
+	width:300px;
+	padding:100px 80px 60px 300px;
+}
+#parrafo{
+	
+	font-variant-position: center;
+	background-color:#F78E69; 
+	width: 600px;
+	height: 700px;
+	align-items: center;
+}
