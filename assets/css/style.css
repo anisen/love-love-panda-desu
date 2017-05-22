@@ -11,32 +11,70 @@ font-family: 'Raleway', sans-serif;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Raleway';
+	background-color: #ABE188;
 }
-#encabezado{
-	font-family: 'Raleway', sans-serif;
-	background-color: #F78E69;
+.imagen{
+	width: 350px;
+   height: 350px;
+   display: block;
+   background:url(la_img.png) center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+#titulo{
 	text-align: right;
 	color: white;
-	font-size: 40px;
-	padding-right: 20px;
+	margin:0 auto;
+	background-color: #F78E69;
+	padding-right: 30px;
+	font-size: 40px
 }
-.imagenes-principales{
-
-	background-size: cover;
-	background-position: center;
+#subtitulo{
+	text-align: right;
+	color: white;
+	margin:0 auto;
+	background-color: #F78E69;
+	padding-right: 30px;
+	font-size: 30px
+}
+#primera-img{
+    margin: 0;
+    padding:0;
+    text-align: center;
 }
 .color{
-	background-color: #ABE188;
+	margin-top: 30px;
 	width: auto;
-	height: 100px
-	width:300px;
-	padding:100px 80px 60px 300px;
+    margin: 40px;
+	padding:0 auto;
+    background-color: #F78E69;
+    text-align: center;
 }
-#parrafo{
+/*#parrafo{
 	
-	font-variant-position: center;
+	position: center;
 	background-color:#F78E69; 
 	width: 600px;
-	height: 700px;
+	height: 200px;
 	align-items: center;
+}*/
+.image{
+	align-items: center;
+	background-color: white;
+	color: whitesmoke;
+	padding: 10px;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 30px;	
+	display: inline-block;
+	box-sizing: border-box;
+	width: 197px;
+}
+#decuatro{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+
 }
